@@ -1,18 +1,41 @@
-## Getting Started
+# Projeto de Busca de Aprendizado
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto simples em Java que simula um processo seletivo para candidatos e realiza algumas operações relacionadas a ele.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+O projeto inclui as seguintes funcionalidades:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. **Entrando em Contato com Candidatos**: O programa tenta entrar em contato com candidatos da lista e registra o número de tentativas até que o contato seja bem-sucedido ou o limite de tentativas seja atingido.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+2. **Imprimir Selecionados**: Uma função que imprime a lista de candidatos, informando o índice de cada candidato. Além disso, há uma forma abreviada de iteração usando o loop "for each".
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+3. **Seleção de Candidatos**: Uma função que simula a seleção de candidatos com base em seus salários pretendidos. Os candidatos são selecionados com base em um salário base estabelecido.
 
-## Dependency Management
+4. **Analisar Candidato**: Uma função que analisa o salário pretendido de um candidato e decide se deve ligar para o candidato, fazer uma contra proposta ou aguardar resultados de outros candidatos.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Executando o Projeto
+
+Para executar o projeto, siga estas etapas:
+
+1. Certifique-se de ter o ambiente Java configurado em seu sistema.
+
+2. Compile o arquivo `ProcessoSeletivo.java`.
+
+3. Execute o programa Java resultante.
+
+## Contribuições
+
+Este projeto é apenas um exemplo simples e pode ser estendido com mais funcionalidades e melhorias. Se você desejar contribuir, sinta-se à vontade para criar pull requests ou abrir problemas para discutir melhorias.
+
+## Autor
+
+Este projeto foi criado por [Seu Nome] ([seu-email@example.com]).
+
+## Licença
+
+Este projeto é distribuído sob a licença [Inserir Licença]. Veja o arquivo `LICENSE` para mais detalhes.
+
+---
+
+Sinta-se à vontade para adicionar informações adicionais ou ajustar o README.md de acordo com suas necessidades específicas.
